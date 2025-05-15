@@ -1,6 +1,7 @@
 import { cva } from 'class-variance-authority';
 import Link from 'next/link';
 import { Logo } from '../logo';
+import { NavigationMenu } from '../navigationMenu';
 
 
 const container = cva(
@@ -15,7 +16,7 @@ export function Navbar() {
         
         <Logo/>
       </Link>
-      {/* <Menu /> */}
+      <NavigationMenu/>
     </div>
   );
 
